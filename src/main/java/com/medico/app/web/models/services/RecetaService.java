@@ -26,7 +26,6 @@ public class RecetaService implements IRecetaService {
 	@Transactional(readOnly = true)
 	public List<Receta> findAll() {
 		return (List<Receta>) dao.findAll();
-
 	}
 
 	@Override
